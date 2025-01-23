@@ -32,3 +32,40 @@ Follow these instructions to set up and run the project locally.
 ```bash
 git clone https://github.com/<your-username>/todo-list-web-app.git
 cd todo-list-web-app
+```
+### 2.Set Up a Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+### 3.Install Dependencies
+```bash
+pip install -r requirements.txt
+
+```
+### 4.Run the Application
+```bash
+python app.py
+```
+## 📂 Folder Structure
+## 📂 Folder Structure
+
+```plaintext
+todo-list-web-app/
+├── static/                 # Static assets (CSS, JavaScript, images)
+│   ├── css/                # Stylesheets
+│   ├── js/                 # JavaScript files
+│   └── images/             # Images and icons
+│
+├── templates/              # HTML templates
+│   ├── base.html           # Base layout
+│   └── index.html          # Main page
+│
+├── app.py                  # Flask application
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
+```
+
+##🌟 Contributing
+Contributions are always welcome! If you have ideas for improvements or find bugs, feel free to fork the repository and create a pull request.
+## Feel free to customize this further for your project.
