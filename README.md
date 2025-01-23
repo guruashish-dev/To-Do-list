@@ -48,7 +48,6 @@ pip install -r requirements.txt
 python app.py
 ```
 ## 📂 Folder Structure
-## 📂 Folder Structure
 
 ```plaintext
 todo-list-web-app/
